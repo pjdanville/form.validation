@@ -1,0 +1,87 @@
+body {
+  font-family: "Lato", sans-serif;
+  color: black;
+  margin: 0;
+}
+
+.contact-us  {
+  background-image: linear-gradient(
+    to right,
+    rgb(18,97,128) 0%,
+    rgb(4, 109, 91) 100%
+  );
+  color: white;
+  font-size: 20px;
+  padding: 40px;
+}
+
+form{
+  padding: 40px;
+}
+
+.form-group{
+  margin-bottom: 22px;;
+}
+
+.form-group label{
+  display:block;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.form-group input,textarea{
+  width: 320px;
+  padding: 10px;
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+textarea {
+  width: 500px;
+  height: 220px;
+}
+
+
+input.invalid{
+  border: 1px solid red;
+}
+
+error-hint{
+  color: red;
+}
+
+hr{
+  height: 1px;
+  background-color: rgb(18,97,128);
+  border: none;
+  margin-bottom: 33px;
+  margin-top: 33px;
+}
+
+button {
+  padding: 10px;
+  font-size: 24px;
+  background: none;
+  border: 1px solid rgb(18,97,128);
+  border-radius: 10px;
+  transition: all 0.4s;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: rgb(18,97,128);
+  border: black;
+  color: white; 
+}
+
+.hidden {
+  display: none;
+}
+
+.thank-you {
+  padding: 40px;
+  font-size: 32px;
+  text-align: center;
+}
